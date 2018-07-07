@@ -2,8 +2,8 @@
 #include <WiFiClient.h>
 #include "ESP32FtpServer.h"
 
-const char* ssid = "Molly_AP";
-const char* password = "qazwsx741";
+const char* ssid = "blablabla..."; //WiFi SSID
+const char* password = "blablabla..."; //WiFi Password
 
 FtpServer ftpSrv;   //set #define FTP_DEBUG in ESP32FtpServer.h to see ftp verbose on serial
 
